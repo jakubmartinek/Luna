@@ -6,7 +6,7 @@ import tkinter as tk
 from tkinter import *
 
 def main():
-    openai.api_key = "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" #Tady nemůžu napsat api key , protože je placený
+    openai.api_key = "" #Tady nemůžu napsat api key , protože je placený
     counter = 0
     sleep_data = []
     data_name = ["usnutí ", "vzbuzení ", "délka spánku ", "lehký spánek ", "hluboký spánek ", "REM ", "počet probuzení "]
